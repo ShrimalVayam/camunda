@@ -1,0 +1,40 @@
+.navbar {
+    background-color: #192655;
+    overflow: hidden;
+    width: 100%;
+}
+
+.nav-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 18px;
+    overflow: hidden;
+    display: flex;
+}
+
+.nav-list li {
+    margin-right: 20px;
+}
+
+.nav-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 600px) {
+    .nav-list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav-list li {
+        margin-right: 0;
+    }
+
+    .search-input {
+        width: 93%;
+    }
+}
